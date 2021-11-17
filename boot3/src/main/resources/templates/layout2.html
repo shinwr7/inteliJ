@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>1번</h1>
+    <div th:insert="~{/fragment2 :: part1}"></div>
+
+    <h1>2번</h1>
+    <div th:replace="~{fragment2 :: part2}"></div>
+
+    <th:block th:replace="~{/fragment3}"></th:block>
+</body>
+</html>

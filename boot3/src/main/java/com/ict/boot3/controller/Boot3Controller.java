@@ -109,4 +109,21 @@ public class Boot3Controller {
     public String inlineView2() {
         return "inlineView2";
     }
+
+    @GetMapping("/link")
+    public String link() { return "link";}
+
+    @GetMapping("/layout1")
+    public String layout1(){
+        return "layout1";
+    }
+
+    @GetMapping("/layout2")
+    public String layout2() {
+        return "layout2";
+    }
+    @GetMapping("/layout3")
+    public String layout3() {
+        return "layout3";
+    }
 }
